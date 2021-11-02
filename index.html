@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./bootstrap-5.0.2-dist/css/bootstrap.min.css">
+    <script src="index.js"></script>
+</head>
+
+<body>
+    <div class="container-sm justify-content-center mt-lg-4">
+        <div class="mb-xxl-5">
+            <h2>Tính số nguyên tố từ 1 tới n</h2>
+            <input id="txtNumber4" type="number" class="form-control" placeholder="Nhập số n">
+            <button type="button" class="btn btn-primary mt-3" onclick="getPrimeNumber();">Tính số nguyên tố 1 tới n</button>
+            <input id="Result2" type="text" class="form-control mt-3" placeholder="kết quả" readonly>
+        </div>
+
+        <div class="mb-xxl-5">
+            <h2>Tính tổng 1 tới n</h2>
+            <input id="txtNumber5" type="number" class="form-control" placeholder="Nhập số n">
+            <button type="button" class="btn btn-primary mt-3" onclick="getTotalFrom1Ton();">Tính tổng 1 tới n</button>
+            <input id="Result5" type="text" class="form-control mt-3" placeholder="kết quả" readonly>
+        </div>
+        <div class="mb-xxl-5">
+            <h2>Tính tổng bình phương 1 tới n</h2>
+            <input id="txtNumber6" type="number" class="form-control" placeholder="Nhập số n">
+            <button type="button" class="btn btn-primary mt-3" onclick="getTotalSquareFrom1Ton();">Tính tổng bình phương 1 tới n</button>
+            <input id="Result6" type="text" class="form-control mt-3" placeholder="kết quả" readonly>
+        </div>
+
+        <div class="mb-xxl-5">
+            <h2>Tính tổng số lẻ 1 tới n</h2>
+            <input id="txtNumber7" type="number" class="form-control" placeholder="Nhập số n">
+            <button type="button" class="btn btn-primary mt-3" onclick="getTotalOddNumberFrom1Ton();">Tính tổng số lẻ 1 tới n</button>
+            <input id="Result7" type="text" class="form-control mt-3" placeholder="kết quả" readonly>
+        </div>
+
+        <div class="mb-xxl-5">
+            <h2>Kiểm tra số lẻ cấu thành</h2>
+            <input id="txtNumber8" type="number" class="form-control" placeholder="Nhập số n">
+            <button type="button" class="btn btn-primary mt-3" onclick="isAllOddNumber();">Tính tổng số lẻ 1 tới n</button>
+            <input id="Result8" type="text" class="form-control mt-3" placeholder="kết quả" readonly>
+        </div>
+        <div class="mb-xxl-5">
+            <h2>Kiểm tra số đối xứng</h2>
+            <input id="txtNumber9" type="number" class="form-control" placeholder="Nhập số n">
+            <button type="button" class="btn btn-primary mt-3" onclick="isSymmetryNumber();">Kiểm tra số đối xứng</button>
+            <input id="Result9" type="text" class="form-control mt-3" placeholder="kết quả" readonly>
+        </div>
+        <div class="mb-xxl-5">
+            <h2>Bảng cửu chương</h2>
+            <button type="button" class="btn btn-primary mt-3" onclick="printMultiplicationTable();">Bảng cửu chương</button>
+            <textarea id="Result10" class="form-control mt-3" cols="50" rows="9" placeholder="kết quả" required></textarea>
+        </div>
+    </div>
+</body>
+
+</html>
